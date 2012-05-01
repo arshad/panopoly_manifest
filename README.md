@@ -7,6 +7,7 @@ In order to get the latest and greatest from the Panopoly, you need
 to install Repo and then run the following commands in your Drupal root:
 
 > repo init -u git://github.com/populist/panopoly_manifest.git
+
 > repo sync
 
 There is a lot of documentation online about Repo, but two of the best
