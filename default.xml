@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/populist/" name="panopoly_populist"/>
+  <remote fetch="http://git.drupal.org/project/" name="drupal_org" />
+
+  <project name="panopoly" path="profiles/panopoly" remote="drupal_org" revision="7.x-1.x" />
 
   <project name="panopoly_admin" path="sites/all/modules/panopoly_admin" remote="panopoly_populist" revision="master"/>
   <project name="panopoly_core" path="sites/all/modules/panopoly_core" remote="panopoly_populist" revision="master"/>
