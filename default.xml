@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/populist/" name="panopoly_populist"/>
+  <project name="panopoly_demo" path="sites/all/modules/panopoly_demo" remote="panopoly_populist" />
+</manifest>
