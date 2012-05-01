@@ -10,6 +10,12 @@ to install Repo and then run the following commands in your Drupal root:
 
 > repo sync
 
+If you want to do development on a branch and have the appropriate
+credentials to push code, you run the following comamnd and then use
+git normally to pull/push/add/commit code:
+
+> repo start BRANCH_NAME PROJECT_NAME
+
 There is a lot of documentation online about Repo, but two of the best
 places to look are here:
 
