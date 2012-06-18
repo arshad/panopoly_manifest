@@ -16,6 +16,10 @@ git normally to pull/push/add/commit code:
 
 > repo start BRANCH_NAME PROJECT_NAME
 
+If you want to start all of the branches on 7.x-1.x, run this:
+
+> repo start 7.x-1.x --all
+
 There is a lot of documentation online about Repo, but two of the best
 places to look are here:
 
